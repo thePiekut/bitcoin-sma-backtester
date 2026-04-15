@@ -1,20 +1,18 @@
 # Bitcoin SMA Backtester ₿
 
-Profesjonalny skrypt analityczny w Pythonie służący do weryfikacji skuteczności strategii **Golden Cross / Death Cross** na historycznych danych Bitcoina.
+Professional analytical script in Python designed to verify the effectiveness of Golden Cross / Death Cross strategies using historical Bitcoin data.
 
-![Wykres Strategii](wykres.png)
+![Bitcoin SMA Strategy Backtesting Results](wykres.png)
 
-## 🚀 O Projekcie
+## 🚀 About the Project: The goal is to simulate an investment portfolio based on classic technical analysis. The script retrieves data directly from the Binance exchange (no API keys required), processes it, and simulates investment decisions.
 
-Celem projektu jest symulacja portfela inwestycyjnego opartego na klasycznej analizie technicznej. Skrypt pobiera dane bezpośrednio z giełdy Binance (bez kluczy API), przetwarza je i symuluje decyzje inwestycyjne.
 
-### Zastosowana logika:
-* **Kupno (Golden Cross):** Średnia 50-dniowa przecina 200-dniową od dołu. 
-* **Sprzedaż (Death Cross):** Średnia 50-dniowa przecina 200-dniową od góry. 
+### Applied Logic:
+* **Buy (Golden Cross): 50-day moving average crosses the 200-day moving average from below.
+* **Sell (Death Cross): 50-day moving average crosses the 200-day moving average from above.
+## 📊 Results & Features:
 
-## 📊 Wyniki i Funkcje
-
-Skrypt generuje szczegółowy raport zawierający:
-* ✅ Wykres cenowy z naniesionymi punktami wejścia (zielone ▲) i wyjścia (czerwone ▼).
-* ✅ Obliczenie całkowitego zwrotu z inwestycji (ROI).
-* ✅ Symulację kapitału początkowego (np. 10,000 USDT).
+The script generates a detailed report including:
+* ✅ Price chart with plotted entry (green ▲) and exit (red ▼) points.
+* ✅ Calculation of total Return on Investment (ROI).
+* ✅ Initial capital simulation (e.g., 10,000 USDT).
